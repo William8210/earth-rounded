@@ -1,0 +1,43 @@
+body {
+  background-image: url(background\ 2.jpg);
+}
+.nav-item:hover {
+  background-color: crimson;
+  cursor: pointer;
+  transform: scale(0.5);
+}
+.wikipedia--link {
+  cursor: pointer;
+}
+.hero--section {
+  margin-inline: auto;
+  max-width: 58em;
+  gap: 3rem;
+}
+@media screen and (min-width: 768px) {
+  .hero--section {
+    gap: 10rem;
+  }
+}
+
+.earth--image {
+  width: 300px;
+}
+.earth--features:hover {
+  background-color: crimson;
+  cursor: pointer;
+  transform: scale(1);
+}
+.metrics--card {
+  margin-inline: auto;
+  max-width: 58em;
+  gap: 2rem;
+}
+.metrics--feature {
+  width: 100%;
+}
+@media screen and(min-width: 768px) {
+  .metrics--features {
+    max-width: 31.23em;
+  }
+}

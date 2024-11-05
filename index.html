@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Nav section starts here-->
+    <nav class="navbar navbar-expand-lg border-bottom border-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">THE PLANET</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-secondary fw-medium" href="#">MERCURY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary fw-medium" href="#">VENUS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary fw-medium" href="#">EARTH</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary fw-medium" href="#">MARS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary fw-medium" href="#">JUPITER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary fw-medium" href="#">SATURN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary fw-medium" href="#">URANUS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary fw-medium" href="#">NEPTUNE</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Nav section ends here-->
+    <!--hero section starts here-->
+    <section
+      class="d-flex flex-column flex-md-row align-items-center px-2 py-5 hero--section"
+    >
+      <img src="hero-image.png" alt="EARTH-ROUNDED" class="earth--image" />
+      <div class="d-flex flex-column gap-2">
+        <h1 class="earth--txt text-white display-1">EARTH</h1>
+        <p class="text-secondary fw-medium">
+          Third plonet from the Sun and the only known planet to harbor life.
+          About 29.2% of Earth's surface is land with remaining 70.8% is covered
+          with water. Earth's distance from the Sun, physical properties and
+          geological history have allowed life to evolve and thrive.
+        </p>
+        <p>
+          <span class="text-light-emphasis"> Source:</span>
+          <span
+            class="text-secondary fw-medium text-decoration-underline wikipedia--link"
+          >
+            Wikipedia</span
+          >
+          <i
+            class="bi bi-arrow-up-right-square-fill text-secondary fw-medium"
+          ></i>
+        </p>
+        <p class="border border-dark p-3 earth--features">
+          <span class="text-secondary p-2"> 01</span>
+          <span class="text-white fw-medium"> OVERVIEW</span>
+        </p>
+        <p class="border border-dark p-3 earth--features">
+          <span class="text-secondary p-2"> 02</span>
+          <span class="text-white fw-medium"> INTERNAL STRUCTURE</span>
+        </p>
+        <p class="border border-dark p-3 earth--features">
+          <span class="text-secondary p-2"> 03</span>
+          <span class="text-white fw-medium"> SURFACE GEOLOGY</span>
+        </p>
+      </div>
+    </section>
+    <!--Earth metrics starts here-->
+    <section class="d-flex flex-column flex-md-row metrics--card p-2 gap-4">
+      <div class="border border-dark p-3 metrics--feature">
+        <p class="text-secondary">ROTATIONAL TIME</p>
+        <h1 class="text-white fw-medium fs-2 display-6">0.99 DAYS</h1>
+      </div>
+      <div class="border border-dark p-3 metrics--feature">
+        <p class="text-secondary">REVOLUTION TIME</p>
+        <h1 class="text-white fw-medium fs-2 display-6">365.2 DAYS</h1>
+      </div>
+      <div class="border border-dark p-3 metrics--feature">
+        <p class="text-secondary">RADIUS</p>
+        <h1 class="text-white fw-medium fs-2 display-6">6,371KM</h1>
+      </div>
+      <div class="border border-dark p-3 metrics--feature">
+        <p class="text-secondary">AVERAGE TEMP.</p>
+        <h1 class="text-white fw-medium fs-2 display-6">16<sup>0</sup>C</h1>
+      </div>
+    </section>
+    <!--Hero section ends here-->
+  </body>
+</html>
